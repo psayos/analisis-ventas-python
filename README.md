@@ -1,83 +1,48 @@
-# 📊 Análisis de Ventas y Marketing
+# Análisis de ventas con Python
 
-## 📌 Descripción del proyecto
+Este proyecto explora un dataset de ventas y marketing con el objetivo de practicar limpieza de datos, análisis exploratorio y visualización utilizando Python.
 
-Este proyecto analiza datos de **ventas, productos y campañas de marketing** con el objetivo de identificar tendencias comerciales, evaluar el rendimiento de productos y explorar posibles relaciones entre inversión en marketing y resultados de ventas.
+El análisis se realizó en un Jupyter Notebook usando principalmente pandas y librerías de visualización.
 
-El análisis fue realizado utilizando **Python y herramientas de análisis de datos**, aplicando técnicas de limpieza, exploración y visualización de datos.
+## Qué se analiza
 
----
+En el notebook se exploran algunas preguntas básicas:
 
-## 🎯 Objetivos del análisis
+* Cómo evolucionan las ventas a lo largo del tiempo
+* Qué productos generan más revenue
+* Distribución de ventas entre categorías
+* Exploración simple de datos de clientes
+* Relación descriptiva entre marketing y revenue
 
-* Analizar la evolución temporal de las ventas
-* Identificar productos con mayor rendimiento
-* Explorar la relación entre marketing y revenue
-* Analizar patrones en el comportamiento de clientes
+La idea del proyecto es practicar un flujo típico de análisis de datos:
+carga de datos → limpieza → exploración → visualización.
 
----
-
-## 🛠️ Herramientas utilizadas
+## Herramientas usadas
 
 * Python
 * Pandas
-* NumPy
-* Matplotlib
-* Seaborn
+* Matplotlib / Seaborn
 * Jupyter Notebook
 
----
-
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```
-analisis-ventas-python
+proyecto-analisis-ventas
 │
-├── data/                # Dataset utilizado en el análisis
-├── images/              # Gráficos generados
-├── notebooks/           # Notebook principal del análisis
-├── README.md
-└── requirements.txt
+├── data/        dataset utilizado
+├── images/      gráficos generados
+├── notebooks/   notebook del análisis
+└── README.md
 ```
 
----
+## Notas sobre el dataset
 
-## 📈 Principales análisis realizados
+El dataset parece ser simplificado o simulado.
+Algunas tablas (como clientes y ventas) no están completamente conectadas, por lo que el análisis es principalmente exploratorio.
 
-* Limpieza y preparación de datos
-* Análisis exploratorio (EDA)
-* Identificación de tendencias de ventas
-* Visualización de métricas comerciales
-* Análisis descriptivo de clientes
+Este proyecto forma parte de mi práctica mientras aprendo análisis de datos con Python y SQL.
 
----
+## Autora
 
-## ⚠️ Limitaciones del análisis
-
-Este dataset parece ser **simulado o simplificado**, por lo que algunos análisis (como el ROI de marketing) deben interpretarse con cautela.
-
-En particular:
-
-* No hay información de **atribución de marketing**
-* No existe un **grupo de control** para evaluar causalidad
-* La tabla de **clientes no está directamente vinculada a ventas**
-
-Por lo tanto, los resultados deben entenderse como **análisis exploratorio y no inferencias causales**.
-
----
-
-## 🚀 Posibles mejoras futuras
-
-* Vincular datos de clientes con ventas para calcular **Customer Lifetime Value**
-* Incorporar análisis de cohortes
-* Analizar segmentación de clientes
-* Construir un dashboard en **Power BI o Tableau**
-
----
-
-## 👩‍💻 Autora
-
-Proyecto realizado por **Paula Sayos** como parte de su aprendizaje en análisis de datos.
-
-Herramientas y conceptos aplicados durante el proceso de formación en **Python, SQL y análisis de datos**.
+Paula Sayos
 
