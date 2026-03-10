@@ -30,7 +30,6 @@ carga de datos → limpieza → exploración → visualización.
 proyecto-analisis-ventas
 │
 ├── data/        dataset utilizado
-├── images/      gráficos generados
 ├── notebooks/   notebook del análisis
 └── README.md
 ```
